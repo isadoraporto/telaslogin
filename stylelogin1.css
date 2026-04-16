@@ -1,9 +1,10 @@
 body{
+    height: 100vh;
     font-family: 'Inter';
     align-items: center;
     justify-content: center;
     justify-items: center;
-    background: linear-gradient( to right,#ede9fe,#ddd6fe); /* Direção, co1,cor2*/
+    background: linear-gradient( to bottom ,#ede9fe 50%,#6e61a5 90%); /* Direção, co1,cor2*/
 }
 
 .card{
