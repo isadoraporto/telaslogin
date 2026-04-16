@@ -1,0 +1,64 @@
+body{
+    font-family: 'Inter';
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background: linear-gradient( to right,#ede9fe,#ddd6fe); /* Direção, co1,cor2*/
+}
+
+.card{
+    margin: 200px;
+    box-shadow: 0 4px 3px gainsboro;
+    border-radius: 8px;
+    width: 420px ;
+    height: 420px;
+    background-color: #ffffff;
+}
+.h1{
+    padding-top: 32px;
+    text-shadow: #ffffff;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.p1{
+    text-align: center;
+    padding-top: 2px;
+    color:#64748b;
+    text-shadow:  0 0 8px 0.35;
+/* efeito esfumaçado no texto, 0- fumaça para o horizontal, 0- fumaça para baixo, blur-radios quanto maior mais espalhada e suave, quanto menos mais nitido e marcado e o fim a cor */
+}
+.input{
+    border-radius: 8px;
+    border:2px solid #e4dddd;
+    box-shadow: 0 0 0.35 hsl(0, 0%, 100%);
+    width: 300px;
+    height: 30px;
+margin-left: 30px;
+padding-left: 20px;
+}
+
+.button{
+    font-size: 20px;
+    color: #ffffff;
+font-family: 'Inter';
+margin-top: 20px;
+margin-left: 68px;
+width: 250px;
+height: 40px ;
+border-radius: 8px;
+border: 1px solid  #ffffff;
+background-color: rgb(135, 139, 222);
+}
+
+.button:hover{
+    background-color: #ddd6fe;
+    cursor: pointer;
+}
+   .p2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+   }
+   .span{
+    color: #7b30b5;
+   }
