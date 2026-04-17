@@ -1,0 +1,70 @@
+body{
+  min-height: 100vh; /* Para o gradiente nao acabar quando finaliza a linha do box, deve se por min-height e por 100vh */
+  padding-top: 20vh;
+  justify-items: center;
+  justify-content: center;
+  font-family: 'Quicksand';
+    background:
+radial-gradient(
+    circle at center,
+      rgba(255,255,255,0.15), 
+transparent 60% ),
+
+ linear-gradient(
+        135deg,
+        #0f1c4d,
+        #4b2d8a,
+        #b84592,
+        #ff8c5a
+      );
+      
+}
+.entrar{
+
+  width: 450px;
+  height: 350px;
+  border-radius: 8px;
+background: radial-gradient(circle at bottom,
+white,aliceblue,rgb(169, 154, 169)) ;
+text-align: center;
+
+} .h1{
+  color: rgb(5, 25, 97);
+  text-shadow: 1px 1px 1px rgb(110, 110, 140);
+padding-top: 45px;
+}
+p{
+  color: rgb(176, 192, 206);
+
+}
+.input{
+  margin-top: 15px;
+  width: 250px;
+  height: 35px;
+  border: none;
+  border-radius:4px;
+  box-shadow: 1px 1px 2px gray ;
+  font-family: 'Quicksand';
+}
+.butom{
+justify-content: center;
+display: flex;
+padding-top: 15px; 
+}
+
+ .b1{
+  
+ width: 250px;
+    height: 35px;
+    border: none;
+    border-radius:4px;
+    box-shadow: 1px 1px 2px gray ;
+    font-family: 'Quicksand';
+  }
+
+.p1{
+  color: #1334ab;
+  font-weight: 700;
+}
+
+
